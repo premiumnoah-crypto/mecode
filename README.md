@@ -53,9 +53,12 @@ data/seed_titles.yaml   ← 監視する新連載リスト(メタデータ付き
 | `SMTP_USER` | 〃 | 送信元アドレス |
 | `SMTP_PASS` | 〃 | Gmailなら2段階認証+**アプリパスワード** |
 | `REPORT_TO` | 任意 | 送信先。未設定なら `SMTP_USER` 宛 |
+| `DISCORD_WEBHOOK_URL` | 任意 | Discordへダイジェスト通知 |
+| `LINE_CHANNEL_ACCESS_TOKEN` / `LINE_TO` | 任意 | LINEへ通知（Messaging API。旧Notifyは終了済） |
 | `ANTHROPIC_API_KEY` | 任意 | Claudeによる定性サマリーを足したい場合 |
 
 > Reddit / Google Trends は**キー不要**（無料の公開エンドポイント）。
+> 通知は**メール / Discord / LINE** に対応し、環境変数が揃ったチャンネルへ自動送信されます。
 
 ### 2. 監視対象を登録
 `data/seed_titles.yaml` に新連載を追記します。メタデータが多いほど精度が上がります。
@@ -86,11 +89,19 @@ export $(grep -v '^#' .env | xargs)
 python -m src.main --no-email   # メール送信せず標準出力に出すだけ
 ```
 
-テスト:
+テスト & ルーブリック検証:
 
 ```bash
-python tests/test_scoring.py    # もしくは: python -m pytest tests/ -q
+python tests/test_scoring.py     # スコアリング単体テスト
+python tests/test_pipeline.py    # 発見マージ/通知ダイジェスト
+python -m scripts.backtest       # 過去事例でルーブリックを検証(重み調整の指針)
 ```
+
+### 新連載の自動発見
+`config.yaml` の `discovery.sources`（既定: コミックナタリーのRSS）から「新連載/連載開始」
+記事を拾い、作品名候補を `data/seed_titles.yaml` に重複なく自動追記します
+（メタdata は "不明" で入るので、後から `platform`/`genre`/`new_author` を補強すると精度↑）。
+自動発見を止めたい場合は `--no-discover` で実行します。
 
 ---
 

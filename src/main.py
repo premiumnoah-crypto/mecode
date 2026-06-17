@@ -11,7 +11,7 @@ import sys
 import yaml
 
 from .models import Title, Signals
-from .collectors import x_collector, reddit_collector, trends_collector
+from .collectors import x_collector, reddit_collector, trends_collector, discovery
 from . import scoring, report, notify, synthesize
 
 logging.basicConfig(
@@ -55,8 +55,15 @@ def collect_signals(title: Title, cfg: dict) -> Signals:
     return sig
 
 
-def run(config_path: str, titles_path: str, send_mail: bool) -> int:
+def run(config_path: str, titles_path: str, notify_on: bool,
+        do_discover: bool) -> int:
     cfg = load_yaml(config_path)
+
+    if do_discover:
+        candidates = discovery.discover(cfg)
+        added = discovery.merge_into_seed(candidates, titles_path)
+        log.info("自動発見: 候補%d件 / 新規追記%d件", len(candidates), added)
+
     raw = load_yaml(titles_path)
     titles = [Title.from_dict(t) for t in raw.get("titles", [])]
     if not titles:
@@ -76,11 +83,13 @@ def run(config_path: str, titles_path: str, send_mail: bool) -> int:
     path = report.save(md, cfg)
     log.info("レポート保存: %s", path)
 
-    if send_mail:
+    if notify_on:
         html = report.build_html(md, cfg)
+        digest = notify.build_digest(scored, cfg)
         n_buy = sum(1 for s in scored if s.recommendation == "BUY")
         subject = f"[マンガせどり] {cfg['report']['title']} (BUY {n_buy}件)"
-        notify.send_email(subject, md, html)
+        results = notify.dispatch(subject, md, html, digest)
+        log.info("通知結果: %s", results)
 
     # サマリーを標準出力にも（Actionsログ確認用）
     print(md)
@@ -91,9 +100,14 @@ def main() -> None:
     p = argparse.ArgumentParser(description="新連載マンガ せどり判定")
     p.add_argument("--config", default="config.yaml")
     p.add_argument("--titles", default="data/seed_titles.yaml")
-    p.add_argument("--no-email", action="store_true", help="メール送信を抑止")
+    p.add_argument("--no-notify", action="store_true",
+                   help="通知(メール/Discord/LINE)を抑止")
+    p.add_argument("--no-discover", action="store_true",
+                   help="新連載の自動発見をスキップ")
     args = p.parse_args()
-    sys.exit(run(args.config, args.titles, send_mail=not args.no_email))
+    sys.exit(run(args.config, args.titles,
+                 notify_on=not args.no_notify,
+                 do_discover=not args.no_discover))
 
 
 if __name__ == "__main__":

@@ -88,6 +88,18 @@ trends:
   geo: ""        # "" = 全世界, "JP" = 日本のみ
   timeframe: "now 7-d"
 
+# --- 新連載の自動発見 ------------------------------------------------
+discovery:
+  enabled: true
+  # 「新連載」「連載開始」を含む記事から作品名候補を抽出するRSSフィード
+  sources:
+    - "https://natalie.mu/comic/feed/news"
+  keywords:
+    - "新連載"
+    - "連載開始"
+    - "連載スタート"
+    - "新シリーズ"
+
 # --- Claude による定性サマリー（任意） --------------------------------
 claude:
   enabled: true
