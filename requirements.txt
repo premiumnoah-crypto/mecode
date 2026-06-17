@@ -1,0 +1,13 @@
+# Core
+requests>=2.31
+PyYAML>=6.0
+python-dateutil>=2.8
+
+# Google Trends (optional, free)
+pytrends>=4.9
+
+# Qualitative synthesis via Claude (optional)
+anthropic>=0.40
+
+# Templating for the HTML report
+Jinja2>=3.1

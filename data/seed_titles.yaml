@@ -1,0 +1,41 @@
+# =====================================================================
+#  監視対象の新連載マンガ候補リスト
+# =====================================================================
+# このファイルを更新する/discoveryステップが自動追記することで監視対象が増えます。
+# 各作品にメタデータを付けるとスコア精度が上がります。
+#
+# fields:
+#   title           : 作品名（必須・検索キーにも使用）
+#   title_en        : 英語/海外タイトル（Reddit検索用・任意）
+#   author          : 作者名（任意）
+#   platform        : 掲載媒体（config.yaml の platform_tiers のキー）
+#   genre           : ジャンル（config.yaml の genre_tailwind のキー）
+#   debut_date      : 連載開始日 YYYY-MM-DD（任意）
+#   volume1_date    : コミックス1巻発売(予定)日 YYYY-MM-DD（任意・せどり判定の起点）
+#   new_author      : 新人作家か（true=初版が少なく希少化しやすい）
+#   color_opening   : 巻頭/開幕カラーなど編集部プッシュがあったか
+#   search_terms    : 追加の検索ワード（任意・リスト）
+
+titles:
+  - title: "サンプル連載A"
+    title_en: "Sample Series A"
+    author: "新人 太郎"
+    platform: "ジャンプ+"
+    genre: "ダークファンタジー"
+    debut_date: "2026-05-01"
+    volume1_date: "2026-08-04"
+    new_author: true
+    color_opening: true
+    search_terms:
+      - "#サンプル連載A"
+
+  - title: "サンプル連載B"
+    title_en: "Sample Series B"
+    author: "中堅 花子"
+    platform: "週刊少年マガジン"
+    genre: "ラブコメ"
+    debut_date: "2026-04-15"
+    volume1_date: "2026-07-17"
+    new_author: false
+    color_opening: false
+    search_terms: []

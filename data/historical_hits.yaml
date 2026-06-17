@@ -1,0 +1,63 @@
+# =====================================================================
+#  過去のヒット/プレミア化事例（判定ルーブリックの根拠データ）
+# =====================================================================
+# 「初版10倍以上で売却」「アニメ化/映画化」に至った代表事例を、
+# 当時の連載開始時に観測できたシグナルとともに記録。
+# scoring側で「似た特徴の作品ほど高評価」にするための参照に使う。
+
+cases:
+  - title: "呪術廻戦"
+    platform: "週刊少年ジャンプ"
+    genre: "ダークファンタジー"
+    new_author: false
+    early_signals: ["連載前読切で話題", "SNS高エンゲージ", "巻頭カラー"]
+    outcome: { anime: true, movie: true, vol1_premium_x: 3 }
+    note: "アニメ化で需要爆発。初版自体は潤沢だったため転売倍率は中程度。"
+
+  - title: "SPY×FAMILY"
+    platform: "ジャンプ+"
+    genre: "アクション"
+    new_author: false
+    early_signals: ["Web初回から爆発的バズ", "海外同時人気"]
+    outcome: { anime: true, movie: true, vol1_premium_x: 2 }
+    note: "Web発・初動から国内外バズ。部数増刷が早く高倍率転売は限定的。"
+
+  - title: "チェンソーマン"
+    platform: "週刊少年ジャンプ"
+    genre: "ダークファンタジー"
+    new_author: false
+    early_signals: ["独特の作風がSNSで話題", "海外Redditで高評価"]
+    outcome: { anime: true, movie: false, vol1_premium_x: 2 }
+
+  - title: "【推しの子】"
+    platform: "ヤングジャンプ"
+    genre: "サスペンス"
+    new_author: false
+    early_signals: ["第1話無料公開でバズ", "考察人気"]
+    outcome: { anime: true, movie: true, vol1_premium_x: 2 }
+
+  - title: "ダンダダン"
+    platform: "ジャンプ+"
+    genre: "アクション"
+    new_author: false
+    early_signals: ["作画力が海外で絶賛", "Reddit/X高エンゲージ"]
+    outcome: { anime: true, movie: false, vol1_premium_x: 5 }
+    note: "初版が読切人気の割に絞られ、1巻初版がプレミア化した好例。"
+
+  - title: "怪獣8号"
+    platform: "ジャンプ+"
+    genre: "バトル"
+    new_author: false
+    early_signals: ["Web連載開始から世界的バズ", "閲覧数記録"]
+    outcome: { anime: true, movie: false, vol1_premium_x: 2 }
+
+# --- せどり観点の経験則（scoringのscarcity/collectorに反映） -------------
+heuristics:
+  scarcity:
+    - "新人作家の初連載は初版部数が絞られがちで希少化しやすい"
+    - "Web発でいきなり大増刷される作品は初版でも入手容易=倍率は伸びにくい"
+    - "本誌(紙)連載は初版が市場に出回りやすいが、限定版/特装版は別枠で高騰"
+  demand:
+    - "アニメ化発表の瞬間に中古相場が跳ねる（=発表前の仕込みが要）"
+    - "海外人気(英語圏)が高いほど世界的な買い手がつき高倍率になりやすい"
+    - "受賞・映像化・コラボ等のカタリストが重なると倍率が伸びる"
