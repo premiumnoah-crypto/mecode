@@ -8,10 +8,15 @@ on:
 
 permissions:
   contents: write   # 生成レポートをリポジトリにコミットするため
+  pages: write      # GitHub Pages へ latest.json を公開するため
+  id-token: write   # Pages デプロイの認証
 
 jobs:
   report:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,14 +44,25 @@ jobs:
           LINE_TO: ${{ secrets.LINE_TO }}
         run: python -m src.main --config config.yaml --titles data/seed_titles.yaml
 
-      - name: Commit report and discovered titles
+      - name: Commit report, data and discovered titles
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add reports/ data/seed_titles.yaml
+          git add reports/ docs/ data/seed_titles.yaml
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "chore: daily manga resale report $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # docs/ を GitHub Pages に公開 → latest.json がCORS(*)付きで配信される
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

@@ -119,6 +119,29 @@ python -m scripts.backtest       # 過去事例でルーブリックを検証(�
 
 ---
 
+## Webフロントエンド用の データAPI
+
+日次パイプラインは、ブラウザから直接読める機械可読JSONを `docs/` に出力します。
+
+- `docs/latest.json` … 最新の判定結果（フロントはこれをfetch）
+- `docs/data/<日付>.json` … 日別アーカイブ
+- `docs/index.html` … それを描画する最小ダッシュボードの実装例
+
+GitHub Actions が `docs/` を **GitHub Pages** に公開するので、次のURLで配信されます
+（`access-control-allow-origin: *` 付き＝ブラウザから直接fetch可能）:
+
+```
+https://premiumnoah-crypto.github.io/mecode/latest.json
+```
+
+> 初回のみ、リポジトリの **Settings → Pages → Source = "GitHub Actions"** を有効化してください。
+
+### 静的サイト側で「最新データを自動取得できない」ときの直し方
+ブラウザから X / Reddit / RSS を直接fetchすると **CORS / bot403 / APIキー露出** で必ず失敗します。
+データ取得はサーバー側に寄せ、フロントは上記JSONを読むだけにします。手順は
+[`cloudflare/README.md`](cloudflare/README.md) を参照（Cloudflare Pages Function の
+drop-in `cloudflare/functions/api/manga-sedori.js` 付き）。
+
 ## カスタマイズ早見表
 
 | やりたいこと | いじる場所 |

@@ -1,6 +1,7 @@
-"""レポート生成 (Markdown / HTML)."""
+"""レポート生成 (Markdown / HTML / JSON)."""
 from __future__ import annotations
 
+import json
 import os
 from datetime import datetime
 from typing import Optional
@@ -121,3 +122,61 @@ def save(markdown_text: str, cfg: dict) -> str:
     with open(path, "w", encoding="utf-8") as f:
         f.write(markdown_text)
     return path
+
+
+def build_json(scored: list[Scored], cfg: dict,
+               summary: Optional[str] = None) -> dict:
+    """フロントエンド(ブラウザ)が読む機械可読データを構築する。"""
+    rcfg = cfg["report"]
+    generated = _date_str(rcfg.get("timezone", "Asia/Tokyo"))
+    items = []
+    for s in scored:
+        t = s.title
+        items.append({
+            "title": t.title,
+            "title_en": t.title_en,
+            "author": t.author,
+            "platform": t.platform,
+            "genre": t.genre,
+            "volume1_date": t.volume1_date,
+            "new_author": t.new_author,
+            "scores": {
+                "virality": s.virality,
+                "adaptation": s.adaptation,
+                "resale": s.resale,
+            },
+            "recommendation": s.recommendation,
+            "buy_quantity": s.buy_quantity,
+            "confidence": s.confidence,
+            "rationale": s.rationale,
+            "sources_used": s.signals.sources_used,
+            "sources_failed": s.signals.sources_failed,
+        })
+    return {
+        "schema_version": 1,
+        "generated_at": generated,
+        "title": rcfg["title"],
+        "summary": summary,
+        "count": len(items),
+        "buy_count": sum(1 for s in scored if s.recommendation == "BUY"),
+        "disclaimer": _DISCLAIMER,
+        "items": items,
+    }
+
+
+def save_json(data: dict, docs_dir: str = "docs") -> list[str]:
+    """latest.json と data/<date>.json を書き出す。戻り値は保存先パス群。
+
+    docs/ 配下に置くことで GitHub Pages から
+    `https://<owner>.github.io/<repo>/latest.json` として
+    CORS許可(`access-control-allow-origin: *`)付きで配信できる。
+    """
+    os.makedirs(os.path.join(docs_dir, "data"), exist_ok=True)
+    date = data["generated_at"].split(" ")[0]
+    paths = []
+    for rel in ("latest.json", os.path.join("data", f"{date}.json")):
+        p = os.path.join(docs_dir, rel)
+        with open(p, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        paths.append(p)
+    return paths

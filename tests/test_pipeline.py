@@ -10,7 +10,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.collectors import discovery  # noqa: E402
 from src.collectors.discovery import _TITLE_PAT  # noqa: E402
 from src.models import Title, Signals, Scored  # noqa: E402
-from src import notify  # noqa: E402
+from src import notify, report  # noqa: E402
+import json as _json  # noqa: E402
 
 
 def test_title_extraction_from_headline():
@@ -46,8 +47,25 @@ def test_digest_lists_buys():
     assert "10冊" in digest
 
 
+def test_build_json_shape():
+    cfg = {"report": {"title": "テスト", "timezone": "Asia/Tokyo"}}
+    s = Scored(title=Title(title="作品X", platform="ジャンプ+"),
+               signals=Signals(sources_used=["X"], sources_failed=["Reddit"]),
+               virality=10.0, adaptation=20.0, resale=30.0,
+               recommendation="WATCH")
+    data = report.build_json([s], cfg, summary="総評")
+    # フロントが依存するキーが揃っていること
+    assert data["schema_version"] == 1
+    assert data["count"] == 1
+    assert data["items"][0]["scores"]["resale"] == 30.0
+    assert data["items"][0]["recommendation"] == "WATCH"
+    # JSON直列化できること（日本語含む）
+    _json.loads(_json.dumps(data, ensure_ascii=False))
+
+
 if __name__ == "__main__":
     test_title_extraction_from_headline()
     test_merge_into_seed_dedup()
     test_digest_lists_buys()
+    test_build_json_shape()
     print("OK: pipeline tests passed")

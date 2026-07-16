@@ -83,6 +83,11 @@ def run(config_path: str, titles_path: str, notify_on: bool,
     path = report.save(md, cfg)
     log.info("レポート保存: %s", path)
 
+    # ブラウザ(フロントエンド)が直接fetchできる機械可読JSONを公開
+    data = report.build_json(scored, cfg, summary)
+    json_paths = report.save_json(data)
+    log.info("JSONデータ公開: %s", ", ".join(json_paths))
+
     if notify_on:
         html = report.build_html(md, cfg)
         digest = notify.build_digest(scored, cfg)

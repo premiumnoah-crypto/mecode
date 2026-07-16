@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-16 16:25",
+  "title": "新連載マンガ せどり判定 デイリーレポート",
+  "summary": null,
+  "count": 2,
+  "buy_count": 0,
+  "disclaimer": "※ 本レポートのスコアは過去のヒット要因に基づく確率的な期待値であり、アニメ化・映画化・転売益を保証するものではありません。コミックスのせどり・投資は自己責任で行ってください。",
+  "items": [
+    {
+      "title": "サンプル連載A",
+      "title_en": "Sample Series A",
+      "author": "新人 太郎",
+      "platform": "ジャンプ+",
+      "genre": "ダークファンタジー",
+      "volume1_date": "2026-08-04",
+      "new_author": true,
+      "scores": {
+        "virality": 24.2,
+        "adaptation": 56.7,
+        "resale": 54.3
+      },
+      "recommendation": "WATCH",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: X, Reddit, Trends（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 98（ジャンプ+）",
+        "ジャンル追い風: 95（ダークファンタジー）",
+        "初版希少性: 72（新人初連載で希少化期待）",
+        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "X",
+        "Reddit",
+        "Trends"
+      ]
+    },
+    {
+      "title": "サンプル連載B",
+      "title_en": "Sample Series B",
+      "author": "中堅 花子",
+      "platform": "週刊少年マガジン",
+      "genre": "ラブコメ",
+      "volume1_date": "2026-07-17",
+      "new_author": false,
+      "scores": {
+        "virality": 20.7,
+        "adaptation": 48.5,
+        "resale": 39.8
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: X, Reddit, Trends（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 85（週刊少年マガジン）",
+        "ジャンル追い風: 80（ラブコメ）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "X",
+        "Reddit",
+        "Trends"
+      ]
+    }
+  ]
+}
