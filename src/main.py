@@ -11,7 +11,9 @@ import sys
 import yaml
 
 from .models import Title, Signals
-from .collectors import x_collector, reddit_collector, trends_collector, discovery
+from .collectors import (
+    x_collector, reddit_collector, trends_collector, discovery, anilist,
+)
 from . import scoring, report, notify, synthesize
 
 logging.basicConfig(
@@ -29,28 +31,42 @@ def load_yaml(path: str) -> dict:
 def collect_signals(title: Title, cfg: dict) -> Signals:
     sig = Signals()
 
+    # --- 一次データ源: AniList(キー不要・データセンターIPからも利用可) --------
+    # popularity→バズ, favourites→コレクター/海外人気, trending→トレンド に対応付け。
+    al = anilist.collect(title, cfg)
+    if al is not None:
+        sig.x_engagement = al["popularity"]
+        sig.reddit_score = al["favourites"]
+        sig.trends_value = al["trending_norm"]
+        sig.sources_used.append("AniList")
+    else:
+        sig.sources_failed.append("AniList")
+
+    # --- X(Twitter): トークンがあれば実エンゲージメントで上書き ---------------
     x = x_collector.collect(title, cfg.get("x_search", {}))
     if x is not None:
         sig.x_engagement = x["engagement"]
         sig.x_tweet_count = x["tweet_count"]
         sig.sources_used.append("X")
-    else:
-        sig.sources_failed.append("X")
 
-    rd = reddit_collector.collect(title, cfg.get("reddit", {}))
-    if rd is not None:
-        sig.reddit_score = rd["score"]
-        sig.reddit_posts = rd["posts"]
-        sig.sources_used.append("Reddit")
-    else:
-        sig.sources_failed.append("Reddit")
+    # --- Reddit / Google Trends: 自動環境では 403/429 で遮断されるため既定オフ ---
+    # (config.yaml で reddit.enabled / trends.enabled を true にすると再有効化)
+    if cfg.get("reddit", {}).get("enabled"):
+        rd = reddit_collector.collect(title, cfg.get("reddit", {}))
+        if rd is not None:
+            sig.reddit_score = rd["score"]
+            sig.reddit_posts = rd["posts"]
+            sig.sources_used.append("Reddit")
+        else:
+            sig.sources_failed.append("Reddit")
 
-    tr = trends_collector.collect(title, cfg.get("trends", {}))
-    if tr is not None:
-        sig.trends_value = tr
-        sig.sources_used.append("Trends")
-    else:
-        sig.sources_failed.append("Trends")
+    if cfg.get("trends", {}).get("enabled"):
+        tr = trends_collector.collect(title, cfg.get("trends", {}))
+        if tr is not None:
+            sig.trends_value = tr
+            sig.sources_used.append("Trends")
+        else:
+            sig.sources_failed.append("Trends")
 
     return sig
 
@@ -60,9 +76,14 @@ def run(config_path: str, titles_path: str, notify_on: bool,
     cfg = load_yaml(config_path)
 
     if do_discover:
-        candidates = discovery.discover(cfg)
-        added = discovery.merge_into_seed(candidates, titles_path)
-        log.info("自動発見: 候補%d件 / 新規追記%d件", len(candidates), added)
+        # 一次: AniList(実在マンガをメタデータ付きで取得)
+        al_records = anilist.discover(cfg)
+        al_added = anilist.merge_into_seed(al_records, titles_path)
+        # 補助: ニュースフィード(natalie等)からの作品名抽出(到達可能なら)
+        news_candidates = discovery.discover(cfg)
+        news_added = discovery.merge_into_seed(news_candidates, titles_path)
+        log.info("自動発見: AniList %d件追記 / ニュース %d件追記",
+                 al_added, news_added)
 
     raw = load_yaml(titles_path)
     titles = [Title.from_dict(t) for t in raw.get("titles", [])]

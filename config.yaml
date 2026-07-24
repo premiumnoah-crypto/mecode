@@ -74,8 +74,19 @@ x_search:
   max_results: 50          # recent searchで取得する最大ツイート数
   exclude_retweets: true
 
+# --- AniList (一次データ源・キー不要) --------------------------------
+# X/Reddit/Trends はデータセンターIPから遮断されるため、公開GraphQL APIの
+# AniListを主データ源にする。実在マンガの人気度/お気に入り/評価/トレンドを取得。
+anilist:
+  enabled: true
+  discover_months: 18     # 直近何ヶ月に連載開始した作品を候補にするか
+  discover_limit: 30      # 1回の自動発見で取得する上位件数(トレンド順)
+  min_popularity: 30      # これ未満の人気度の作品は候補から除外(ノイズ抑制)
+
 # --- Reddit 検索設定 -------------------------------------------------
+# 注意: RedditはデータセンターIP(GitHub Actions等)を403で遮断するため既定オフ。
 reddit:
+  enabled: false
   subreddits:
     - "manga"
     - "MangaCollectors"
@@ -84,7 +95,9 @@ reddit:
   limit: 25
 
 # --- Google Trends 設定 ----------------------------------------------
+# 注意: pytrendsは自動環境から429で遮断されるため既定オフ。
 trends:
+  enabled: false
   geo: ""        # "" = 全世界, "JP" = 日本のみ
   timeframe: "now 7-d"
 
