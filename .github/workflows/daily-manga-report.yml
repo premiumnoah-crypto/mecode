@@ -1,0 +1,57 @@
+name: Daily Manga Resale Report
+
+on:
+  schedule:
+    # 毎日 09:00 JST = 00:00 UTC に実行
+    # 注意: スケジュール実行は「デフォルトブランチ(main)」上のワークフローだけが起動します。
+    - cron: "0 0 * * *"
+  workflow_dispatch:   # 手動実行も可能
+
+# 生成物(レポート/JSON/自動発見した監視リスト)をリポジトリにコミットするための権限
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily report
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          REPORT_TO: ${{ secrets.REPORT_TO }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_TO: ${{ secrets.LINE_TO }}
+        run: python -m src.main --config config.yaml --titles data/seed_titles.yaml
+
+      # docs/latest.json は raw.githubusercontent.com から
+      # CORS(access-control-allow-origin: *)付きで配信されるため、
+      # フロントエンド(portal)はそのURLを直接fetchできる。GitHub Pagesは不要。
+      - name: Commit report, data and discovered titles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/ docs/ data/seed_titles.yaml
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily manga resale report $(date -u +%Y-%m-%d)"
+            git push
+          fi

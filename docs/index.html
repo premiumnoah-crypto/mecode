@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>新連載マンガ せどり判定</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 1.2rem;
+         max-width: 960px; margin-inline: auto; line-height: 1.5; }
+  h1 { font-size: 1.4rem; margin: 0 0 .2rem; }
+  .meta { color: #888; font-size: .85rem; margin-bottom: 1rem; }
+  .err { background:#fdecea; color:#a12; border:1px solid #f5c6cb;
+         padding:.8rem 1rem; border-radius:8px; }
+  @media (prefers-color-scheme: dark){ .err{ background:#3b1112; color:#f5b5b5; border-color:#722;} }
+  table { width:100%; border-collapse: collapse; font-size:.9rem; }
+  th,td { padding:.5rem .4rem; border-bottom:1px solid #8883; text-align:left; }
+  td.n, th.n { text-align:right; font-variant-numeric: tabular-nums; }
+  .badge { font-weight:600; padding:.1rem .5rem; border-radius:6px; font-size:.8rem; }
+  .BUY{ background:#12813722; color:#128137; }
+  .WATCH{ background:#a9720022; color:#a97200; }
+  .SKIP{ background:#8883; color:#888; }
+  .disc { color:#888; font-size:.78rem; margin-top:1.4rem; }
+</style>
+</head>
+<body>
+  <h1 id="title">新連載マンガ せどり判定</h1>
+  <div class="meta" id="meta">読み込み中…</div>
+  <div id="content"></div>
+  <div class="disc" id="disc"></div>
+
+<script>
+// データ源: mecode が毎日更新する latest.json（GitHub Pages はCORS `*` を返すため
+// ブラウザから直接fetchできる）。同一オリジンに置く場合は "./latest.json" でOK。
+const DATA_URL = "./latest.json";
+
+async function load() {
+  const meta = document.getElementById("meta");
+  try {
+    const res = await fetch(DATA_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    meta.innerHTML = '<div class="err">最新データの取得に失敗しました: '
+      + e.message + '<br>データURL: ' + DATA_URL + '</div>';
+  }
+}
+
+function render(d) {
+  document.getElementById("title").textContent = d.title || "新連載マンガ せどり判定";
+  document.getElementById("meta").textContent =
+    `${d.generated_at} 更新 / 監視 ${d.count}作品 / BUY ${d.buy_count}件`;
+  document.getElementById("disc").textContent = d.disclaimer || "";
+
+  const rows = (d.items || []).map((it, i) => {
+    const s = it.scores || {};
+    const rec = it.recommendation || "SKIP";
+    const qty = it.buy_quantity ? ` ${it.buy_quantity}冊` : "";
+    return `<tr>
+      <td class="n">${i + 1}</td>
+      <td><span class="badge ${rec}">${rec}${qty}</span></td>
+      <td>${it.title}</td>
+      <td>${it.platform || ""}</td>
+      <td class="n">${s.resale ?? ""}</td>
+      <td class="n">${s.adaptation ?? ""}</td>
+      <td class="n">${s.virality ?? ""}</td>
+    </tr>`;
+  }).join("");
+
+  document.getElementById("content").innerHTML = `
+    ${d.summary ? `<p>${d.summary}</p>` : ""}
+    <table>
+      <thead><tr>
+        <th class="n">#</th><th>判定</th><th>作品</th><th>媒体</th>
+        <th class="n">resale</th><th class="n">adapt</th><th class="n">viral</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+load();
+</script>
+</body>
+</html>
