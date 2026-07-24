@@ -1,25 +1,4 @@
 titles:
-- title: サンプル連載A
-  title_en: Sample Series A
-  author: 新人 太郎
-  platform: ジャンプ+
-  genre: ダークファンタジー
-  debut_date: '2026-05-01'
-  volume1_date: '2026-08-04'
-  new_author: true
-  color_opening: true
-  search_terms:
-  - '#サンプル連載A'
-- title: サンプル連載B
-  title_en: Sample Series B
-  author: 中堅 花子
-  platform: 週刊少年マガジン
-  genre: ラブコメ
-  debut_date: '2026-04-15'
-  volume1_date: '2026-07-17'
-  new_author: false
-  color_opening: false
-  search_terms: []
 - title: アンタと幼なじみってだけでもイヤなのに！～絶交から始まるS級美少女との学園成り上がり生活～
   title_en: 'Anta to Osananajimitte dake demo Iyananoni!: Zekkou kara Hajimaru S-kyuu
     Bishoujo to no Gakuen Nariagari Seikatsu'
