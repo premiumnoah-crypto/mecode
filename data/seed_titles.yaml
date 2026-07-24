@@ -1,41 +1,277 @@
-# =====================================================================
-#  監視対象の新連載マンガ候補リスト
-# =====================================================================
-# このファイルを更新する/discoveryステップが自動追記することで監視対象が増えます。
-# 各作品にメタデータを付けるとスコア精度が上がります。
-#
-# fields:
-#   title           : 作品名（必須・検索キーにも使用）
-#   title_en        : 英語/海外タイトル（Reddit検索用・任意）
-#   author          : 作者名（任意）
-#   platform        : 掲載媒体（config.yaml の platform_tiers のキー）
-#   genre           : ジャンル（config.yaml の genre_tailwind のキー）
-#   debut_date      : 連載開始日 YYYY-MM-DD（任意）
-#   volume1_date    : コミックス1巻発売(予定)日 YYYY-MM-DD（任意・せどり判定の起点）
-#   new_author      : 新人作家か（true=初版が少なく希少化しやすい）
-#   color_opening   : 巻頭/開幕カラーなど編集部プッシュがあったか
-#   search_terms    : 追加の検索ワード（任意・リスト）
-
 titles:
-  - title: "サンプル連載A"
-    title_en: "Sample Series A"
-    author: "新人 太郎"
-    platform: "ジャンプ+"
-    genre: "ダークファンタジー"
-    debut_date: "2026-05-01"
-    volume1_date: "2026-08-04"
-    new_author: true
-    color_opening: true
-    search_terms:
-      - "#サンプル連載A"
-
-  - title: "サンプル連載B"
-    title_en: "Sample Series B"
-    author: "中堅 花子"
-    platform: "週刊少年マガジン"
-    genre: "ラブコメ"
-    debut_date: "2026-04-15"
-    volume1_date: "2026-07-17"
-    new_author: false
-    color_opening: false
-    search_terms: []
+- title: サンプル連載A
+  title_en: Sample Series A
+  author: 新人 太郎
+  platform: ジャンプ+
+  genre: ダークファンタジー
+  debut_date: '2026-05-01'
+  volume1_date: '2026-08-04'
+  new_author: true
+  color_opening: true
+  search_terms:
+  - '#サンプル連載A'
+- title: サンプル連載B
+  title_en: Sample Series B
+  author: 中堅 花子
+  platform: 週刊少年マガジン
+  genre: ラブコメ
+  debut_date: '2026-04-15'
+  volume1_date: '2026-07-17'
+  new_author: false
+  color_opening: false
+  search_terms: []
+- title: アンタと幼なじみってだけでもイヤなのに！～絶交から始まるS級美少女との学園成り上がり生活～
+  title_en: 'Anta to Osananajimitte dake demo Iyananoni!: Zekkou kara Hajimaru S-kyuu
+    Bishoujo to no Gakuen Nariagari Seikatsu'
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - 'Anta to Osananajimitte dake demo Iyananoni!: Zekkou kara Hajimaru S-kyuu Bishoujo
+    to no Gakuen Nariagari Seikatsu'
+  volume1_date: '2025-03-25'
+- title: ふたりバス
+  title_en: Futari Bus
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Futari Bus
+  volume1_date: '2025-11-05'
+- title: 灰宮先輩は怖くてかわいい
+  title_en: Haimiya Is Scary Cute
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Haimiya-senpai wa Kowakute Kawaii
+  - Haimiya Is Scary Cute
+  volume1_date: '2025-11-06'
+- title: 大崎さんと小森さん
+  title_en: Oosaki-san to Komori-san
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Oosaki-san to Komori-san
+  volume1_date: '2025-07-07'
+- title: 初代様の帰還～史上最強が1000年後の子孫に転生する～
+  title_en: 'Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei
+    Suru'
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - 'Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru'
+  volume1_date: '2025-09-17'
+- title: WITCHRIV
+  title_en: WITCHRIV
+  platform: 不明
+  genre: サスペンス
+  new_author: false
+  color_opening: false
+  search_terms:
+  - WITCHRIV
+  - WITCHRIV
+  volume1_date: '2025-10-23'
+- title: 雨森潤奈は湿度が高い
+  title_en: Amamori Junna wa Shitsudo ga Takai
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Amamori Junna wa Shitsudo ga Takai
+  volume1_date: '2026-05-21'
+- title: 呪術廻戦≡
+  title_en: Jujutsu Kaisen Modulo
+  platform: 不明
+  genre: ダークファンタジー
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Jujutsu Kaisen Modulo
+  - Jujutsu Kaisen Modulo
+  volume1_date: '2025-09-08'
+- title: '#ギャルとギャルの百合'
+  title_en: '#Gal x Gal Yuri'
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - '#Gal to Gal no Yuri'
+  - '#Gal x Gal Yuri'
+  volume1_date: '2025-06-10'
+- title: 負けヒロインを勝たせたい!!
+  title_en: Make Heroine wo Katasetai!!
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Make Heroine wo Katasetai!!
+  volume1_date: '2025-08-21'
+- title: 保知矢さんはあまりある
+  title_en: Hochiya-san wa Amariaru
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Hochiya-san wa Amariaru
+  volume1_date: '2025-12-11'
+- title: ゲーム世界で魔物に転生してしまった俺、前世で推しだったヒロインを拾ってしまう
+  title_en: Game Sekai de Mamono ni Tensei shiteshimatta Ore, Zense de Oshi datta
+    Heroine wo Hirotteshimau
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Game Sekai de Mamono ni Tensei shiteshimatta Ore, Zense de Oshi datta Heroine
+    wo Hirotteshimau
+  volume1_date: '2025-09-09'
+- title: おそらくカノジョは俺の兄貴を狙ってる
+  title_en: Osoraku Kanojo wa Ore no Aniki wo Neratteru
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Osoraku Kanojo wa Ore no Aniki wo Neratteru
+  volume1_date: '2025-04-20'
+- title: 人生逆転 浮気され、えん罪を着せられた俺が、学園一の美少女に懐かれる
+  title_en: 'Jinsei Gyakuten: Uwakisare, Enzai wo Kiserareta Orega, Gakuenichi no
+    Bishoujo ni Natsukareru'
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - 'Jinsei Gyakuten: Uwakisare, Enzai wo Kiserareta Orega, Gakuenichi no Bishoujo
+    ni Natsukareru'
+  volume1_date: '2025-05-30'
+- title: 放課後、僕らは宇宙に惑う
+  title_en: Houkago, Bokura wa Uchuu ni Madou
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Houkago, Bokura wa Uchuu ni Madou
+  volume1_date: '2025-02-28'
+- title: 転生ストリーマー
+  title_en: Streaming My Second Life
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Tensei Streamer
+  - Streaming My Second Life
+  volume1_date: '2025-12-06'
+- title: 黒髪清楚の冷酷美少女を助けたら、俺と二人きりの時だけデレるようになった件
+  title_en: Kurokami Seiso no Reikoku Bishoujo wo Tasuketara, Ore to Futarikiri no
+    Toki Dake Dereru You ni Natta Ken
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Kurokami Seiso no Reikoku Bishoujo wo Tasuketara, Ore to Futarikiri no Toki Dake
+    Dereru You ni Natta Ken
+  volume1_date: '2025-10-03'
+- title: サナギの心臓
+  title_en: The Chrysalis Heart
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Sanagi no Heart
+  - The Chrysalis Heart
+  volume1_date: '2026-04-17'
+- title: 北欧美少女のクラスメイトが、婚約者になったらデレデレの甘々になってしまった件について
+  title_en: Hokuou Bishoujo no Classmate ga, Konyakusha ni Nattara Deredere no Amaama
+    ni Natteshimatta Ken ni Tsuite
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Hokuou Bishoujo no Classmate ga, Konyakusha ni Nattara Deredere no Amaama ni Natteshimatta
+    Ken ni Tsuite
+  volume1_date: '2025-09-12'
+- title: 魔法至上の世界でアカデミーの天才になっていた
+  title_en: Mahou Shijou no Sekai de Academy no Tensai ni Natte Ita
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Mahou Shijou no Sekai de Academy no Tensai ni Natte Ita
+  volume1_date: '2025-11-09'
+- title: ギャル神官はリザレがダルい
+  title_en: Gal Shinkan wa Resurrection ga Darui
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Gal Shinkan wa Resurrection ga Darui
+  volume1_date: '2025-08-14'
+- title: やがて絵筆を映ろし君は
+  title_en: Soon, You'll Paint Your Heart Out
+  platform: 不明
+  genre: ギャグ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Yagate Efude wo Utsuroshi Kimi wa
+  - Soon, You'll Paint Your Heart Out
+  volume1_date: '2025-12-04'
+- title: 暴君一家の嫁ですが、この執着は間違ってませんか？
+  title_en: Boukun Ikka no Yome desu ga, Kono Shuuchaku wa Machigattemasen ka?
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Boukun Ikka no Yome desu ga, Kono Shuuchaku wa Machigattemasen ka?
+  volume1_date: '2025-09-05'
+- title: 最後の悪役がイン魔にやられてしまった
+  title_en: A Villain Consumed by Desire
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Saigo no Akuyaku ga Inma ni Yarereteshimatta
+  - A Villain Consumed by Desire
+  volume1_date: '2026-05-16'
+- title: 大人大戦
+  title_en: War of the Adults
+  platform: 不明
+  genre: サスペンス
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Otona Taisen
+  - War of the Adults
+  volume1_date: '2025-04-05'
+- title: おさななななじみ
+  title_en: We're J-Just Childhood Friends
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Osananananajimi
+  - We're J-Just Childhood Friends
+  volume1_date: '2025-07-03'
