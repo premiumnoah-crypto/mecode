@@ -17,16 +17,25 @@ import requests
 
 log = logging.getLogger(__name__)
 
-_UA = "mecode-manga-resale-analyzer/1.0"
+# 多くのニュースサイトは未知UAに 403/405 を返すため、ブラウザ相当のヘッダで取得する
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+    "Accept-Language": "ja,en;q=0.8",
+}
 
 # 「『作品名』...新連載/連載開始/連載スタート」のような並びから作品名を拾う
-_TITLE_PAT = re.compile(r"[「『]([^」』]{1,40})[」』]")
+# 「」『』【】〈〉《》"" の各種括弧に対応
+_TITLE_PAT = re.compile(r"[「『【〈《“\"]([^」』】〉》”\"]{2,40})[」』】〉》”\"]")
 
 
 def _fetch_feed(url: str) -> list[str]:
     """RSS/Atom を取得し、エントリのタイトル文字列リストを返す。"""
     try:
-        r = requests.get(url, headers={"User-Agent": _UA}, timeout=20)
+        r = requests.get(url, headers=_HEADERS, timeout=20, allow_redirects=True)
         r.raise_for_status()
         root = ET.fromstring(r.content)
     except (requests.RequestException, ET.ParseError) as e:

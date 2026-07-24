@@ -23,12 +23,14 @@ def send_email(subject: str, markdown_body: str, html_body: str) -> bool:
     host = os.environ.get("SMTP_HOST")
     user = os.environ.get("SMTP_USER")
     password = os.environ.get("SMTP_PASS")
-    port = int(os.environ.get("SMTP_PORT", "587"))
-    to = os.environ.get("REPORT_TO", user or "")
+    to = os.environ.get("REPORT_TO") or user or ""
 
     if not (host and user and password and to):
         log.info("SMTP系の環境変数が未設定のためメールをスキップ")
         return False
+
+    # SMTP_PORT は空文字("")で渡ることがある(GitHub Secrets未設定時)ので安全に既定値へ
+    port = int((os.environ.get("SMTP_PORT") or "587").strip())
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject

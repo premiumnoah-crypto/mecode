@@ -89,12 +89,16 @@ def run(config_path: str, titles_path: str, notify_on: bool,
     log.info("JSONデータ公開: %s", ", ".join(json_paths))
 
     if notify_on:
-        html = report.build_html(md, cfg)
-        digest = notify.build_digest(scored, cfg)
-        n_buy = sum(1 for s in scored if s.recommendation == "BUY")
-        subject = f"[マンガせどり] {cfg['report']['title']} (BUY {n_buy}件)"
-        results = notify.dispatch(subject, md, html, digest)
-        log.info("通知結果: %s", results)
+        # 通知は付随機能。失敗してもデータ生成/コミットを止めないよう握りつぶす。
+        try:
+            html = report.build_html(md, cfg)
+            digest = notify.build_digest(scored, cfg)
+            n_buy = sum(1 for s in scored if s.recommendation == "BUY")
+            subject = f"[マンガせどり] {cfg['report']['title']} (BUY {n_buy}件)"
+            results = notify.dispatch(subject, md, html, digest)
+            log.info("通知結果: %s", results)
+        except Exception as e:
+            log.warning("通知処理でエラー（データ生成は継続）: %s", e)
 
     # サマリーを標準出力にも（Actionsログ確認用）
     print(md)
