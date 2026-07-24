@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-24 16:32",
+  "generated_at": "2026-07-24 16:34",
   "title": "新連載マンガ せどり判定 デイリーレポート",
   "summary": null,
-  "count": 28,
+  "count": 26,
   "buy_count": 0,
   "disclaimer": "※ 本レポートのスコアは過去のヒット要因に基づく確率的な期待値であり、アニメ化・映画化・転売益を保証するものではありません。コミックスのせどり・投資は自己責任で行ってください。",
   "items": [
@@ -148,34 +148,6 @@
       "sources_failed": []
     },
     {
-      "title": "サンプル連載A",
-      "title_en": "Sample Series A",
-      "author": "新人 太郎",
-      "platform": "ジャンプ+",
-      "genre": "ダークファンタジー",
-      "volume1_date": "2026-08-04",
-      "new_author": true,
-      "scores": {
-        "virality": 41.1,
-        "adaptation": 62.6,
-        "resale": 57.0
-      },
-      "recommendation": "WATCH",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=42 / Reddit=0 / Trends=0",
-        "編集部プッシュ(媒体): 98（ジャンプ+）",
-        "ジャンル追い風: 95（ダークファンタジー）",
-        "初版希少性: 72（新人初連載で希少化期待）",
-        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
       "title": "WITCHRIV",
       "title_en": "WITCHRIV",
       "author": null,
@@ -307,6 +279,34 @@
         "バズ: X=75 / Reddit=55 / Trends=18",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
+      "title": "おさななななじみ",
+      "title_en": "We're J-Just Childhood Friends",
+      "author": null,
+      "platform": "不明",
+      "genre": "ラブコメ",
+      "volume1_date": "2025-07-03",
+      "new_author": false,
+      "scores": {
+        "virality": 58.2,
+        "adaptation": 60.8,
+        "resale": 53.3
+      },
+      "recommendation": "WATCH",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=76 / Reddit=53 / Trends=11",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
         "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
       ],
@@ -680,35 +680,6 @@
       "sources_failed": []
     },
     {
-      "title": "サンプル連載B",
-      "title_en": "Sample Series B",
-      "author": "中堅 花子",
-      "platform": "週刊少年マガジン",
-      "genre": "ラブコメ",
-      "volume1_date": "2026-07-17",
-      "new_author": false,
-      "scores": {
-        "virality": 20.7,
-        "adaptation": 48.5,
-        "resale": 39.8
-      },
-      "recommendation": "SKIP",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
-        "バズ: X=0 / Reddit=0 / Trends=0",
-        "編集部プッシュ(媒体): 85（週刊少年マガジン）",
-        "ジャンル追い風: 80（ラブコメ）",
-        "初版希少性: 45",
-        "→ 現状の10倍転売妙味は低い。見送り推奨。"
-      ],
-      "sources_used": [],
-      "sources_failed": [
-        "AniList"
-      ]
-    },
-    {
       "title": "やがて絵筆を映ろし君は",
       "title_en": "Soon, You'll Paint Your Heart Out",
       "author": null,
@@ -763,35 +734,6 @@
         "AniList"
       ],
       "sources_failed": []
-    },
-    {
-      "title": "おさななななじみ",
-      "title_en": "We're J-Just Childhood Friends",
-      "author": null,
-      "platform": "不明",
-      "genre": "ラブコメ",
-      "volume1_date": "2025-07-03",
-      "new_author": false,
-      "scores": {
-        "virality": 15.5,
-        "adaptation": 37.9,
-        "resale": 35.1
-      },
-      "recommendation": "SKIP",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
-        "バズ: X=0 / Reddit=0 / Trends=0",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（ラブコメ）",
-        "初版希少性: 45",
-        "→ 現状の10倍転売妙味は低い。見送り推奨。"
-      ],
-      "sources_used": [],
-      "sources_failed": [
-        "AniList"
-      ]
     }
   ]
 }
