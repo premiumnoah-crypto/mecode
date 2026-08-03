@@ -1285,3 +1285,52 @@ titles:
   search_terms:
   - Nanafushigi Senpai to Tetsujin-kun
   volume1_date: '2026-07-27'
+- title: ちゃんと好きって言える子無双
+  title_en: Chanto Suki tte Ieruko Musou
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Chanto Suki tte Ieruko Musou
+  volume1_date: '2025-09-27'
+- title: 無能と言われ続けた魔導師、実は世界最強なのに幽閉されていたので自覚なし
+  title_en: Munou to Iware Tsuzuketa Madoushi, Jitsu wa Sekai Saikyou Nanoni Yuuhei
+    Sareteita node Jikaku Nashi
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Munou to Iware Tsuzuketa Madoushi, Jitsu wa Sekai Saikyou Nanoni Yuuhei Sareteita
+    node Jikaku Nashi
+  volume1_date: '2025-05-25'
+- title: 勇者パーティーをクビになったので故郷に帰ったら、メンバー全員がついてきたんだが
+  title_en: Yuusha Party wo Kubi ni Natta node Kokyou ni Kaettara, Member Zenin ga
+    Tsuite Kitan da ga
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Yuusha Party wo Kubi ni Natta node Kokyou ni Kaettara, Member Zenin ga Tsuite
+    Kitan da ga
+  volume1_date: '2025-05-20'
+- title: デート・オア・キル～秘密のマッチング～
+  title_en: 'Date or Kill: Himitsu no Matching'
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - 'Date or Kill: Himitsu no Matching'
+  volume1_date: '2025-03-17'
+- title: 999号室
+  title_en: 999-goushitsu
+  platform: 不明
+  genre: ダークファンタジー
+  new_author: false
+  color_opening: false
+  search_terms:
+  - 999-goushitsu
+  volume1_date: '2025-11-27'
