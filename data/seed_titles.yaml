@@ -1446,3 +1446,78 @@ titles:
   search_terms:
   - Osananajimi wo Miru Me ga Kawatte Shimatta
   volume1_date: '2026-03-09'
+- title: 怪異部～M県Y市の怪現象について～
+  title_en: "Kaii-bu: M-ken Y-shi no Kaigenshou ni Tsuite\t"
+  platform: 不明
+  genre: ホラー
+  new_author: false
+  color_opening: false
+  search_terms:
+  - "Kaii-bu: M-ken Y-shi no Kaigenshou ni Tsuite\t"
+  volume1_date: '2025-05-10'
+- title: 僕はあの夜あの子と
+  title_en: Boku wa Ano Yoru Ano Ko to
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Boku wa Ano Yoru Ano Ko to
+  volume1_date: '2025-11-04'
+- title: カミキル-KAMI KILL-
+  title_en: KAMI KILL
+  platform: 不明
+  genre: サスペンス
+  new_author: false
+  color_opening: false
+  search_terms:
+  - KAMI KILL
+  - KAMI KILL
+  volume1_date: '2025-08-21'
+- title: 白妙様、秘密ですよ
+  title_en: It’s a Secret, Shirotae-sama
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Shirotae-sama, Himitsu desu yo
+  - It’s a Secret, Shirotae-sama
+  volume1_date: '2025-08-22'
+- title: 裏ダンジョンおくさん
+  title_en: Ura Dungeon Oku-san
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Ura Dungeon Oku-san
+  volume1_date: '2025-04-18'
+- title: エニグマティカ
+  title_en: Enigmatica
+  platform: 不明
+  genre: サスペンス
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Enigmatica
+  - Enigmatica
+  volume1_date: '2026-02-26'
+- title: ボイタボイネ
+  title_en: Boita Boine
+  platform: 不明
+  genre: ギャグ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Boita Boine
+  volume1_date: '2025-09-15'
+- title: 異世界に来たけど、生活魔法しか使えません THE COMIC
+  title_en: 'Isekai ni Kita kedo, Seikatsu Mahou shika Tsukaemasen: THE COMIC'
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - 'Isekai ni Kita kedo, Seikatsu Mahou shika Tsukaemasen: THE COMIC'
+  volume1_date: '2025-10-07'
