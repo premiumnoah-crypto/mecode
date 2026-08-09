@@ -1659,3 +1659,79 @@ titles:
   search_terms:
   - Nibanme na Boku to Ichiban no Kanojo
   volume1_date: '2025-07-30'
+- title: 笑わないでよ しじまさん
+  title_en: Quit Laughing, Shijima
+  platform: 不明
+  genre: ホラー
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Warawanai de yo Shijima-san
+  - Quit Laughing, Shijima
+  volume1_date: '2026-08-10'
+- title: やさぐれ召喚者は動かない
+  title_en: Yasagure Shoukansha wa Ugokanai
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Yasagure Shoukansha wa Ugokanai
+  volume1_date: '2025-12-19'
+- title: ダメ犬彼女
+  title_en: Dame Inu Kanojo
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Dame Inu Kanojo
+  volume1_date: '2025-06-07'
+- title: 君のせいなんだから、責任とってよね。
+  title_en: Kimi no Sei Nan Dakara, Sekinin Totte yo ne.
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Kimi no Sei Nan Dakara, Sekinin Totte yo ne.
+  volume1_date: '2025-10-18'
+- title: ボロボロのエルフさんを幸せにする薬売りさん
+  title_en: The Apothecary Is Gonna Make This Ragged Elf Happy
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Boroboro no Elf-san wo Shiawase ni Suru Kusuriuri-san
+  - The Apothecary Is Gonna Make This Ragged Elf Happy
+  volume1_date: '2025-03-06'
+- title: ルノリータ
+  title_en: Lunolita
+  platform: 不明
+  genre: サスペンス
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Lunolita
+  - Lunolita
+  volume1_date: '2026-05-31'
+- title: 七等星をみつけて
+  title_en: Finding the Invisible Star
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Nanatousei wo Mitsukete
+  - Finding the Invisible Star
+  volume1_date: '2026-08-06'
+- title: 転生程度で胸の穴は埋まらない
+  title_en: Tensei Teido de Mune no Ana wa Umaranai
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Tensei Teido de Mune no Ana wa Umaranai
+  volume1_date: '2026-06-26'
