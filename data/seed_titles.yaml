@@ -1735,3 +1735,32 @@ titles:
   search_terms:
   - Tensei Teido de Mune no Ana wa Umaranai
   volume1_date: '2026-06-26'
+- title: 近すぎる2人
+  title_en: Chikasugiru Futari
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Chikasugiru Futari
+  volume1_date: '2026-01-22'
+- title: 神々の権能を操りし者 ～能力数値『0』で蔑まれている俺だが、実は世界最強の一角～
+  title_en: 'Kamigami no Kennou wo Ayatsurishi Mono: Nouryoku Suuchi "0" de Sagesumareteiru
+    Ore da ga Jitsu wa Sekai Saikyou no Ikkaku'
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - 'Kamigami no Kennou wo Ayatsurishi Mono: Nouryoku Suuchi "0" de Sagesumareteiru
+    Ore da ga Jitsu wa Sekai Saikyou no Ikkaku'
+  volume1_date: '2025-02-27'
+- title: 毒を喰らわば愛まで
+  title_en: Doku wo Kurawaba Ai Made
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Doku wo Kurawaba Ai Made
+  volume1_date: '2026-02-01'
