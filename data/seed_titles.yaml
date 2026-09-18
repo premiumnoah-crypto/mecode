@@ -2968,3 +2968,40 @@ titles:
   search_terms:
   - Sayonara Lara
   volume1_date: '2026-10-01'
+- title: SUNNYシックスティーン
+  title_en: SUNNY Sixteen
+  platform: 不明
+  genre: サスペンス
+  new_author: false
+  color_opening: false
+  search_terms:
+  - SUNNY Sixteen
+  volume1_date: '2025-05-08'
+- title: クラスの天使に告った結果
+  title_en: Class no Tenshi ni Kokutta Kekka
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Class no Tenshi ni Kokutta Kekka
+  volume1_date: '2026-08-11'
+- title: ストロベリィ・ケイク
+  title_en: Strawberry Cake
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Strawberry Cake
+  - Strawberry Cake
+  volume1_date: '2026-01-13'
+- title: 忘却後のアレーティア
+  title_en: Boukyaku Go no Aletheia
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Boukyaku Go no Aletheia
+  volume1_date: '2026-05-20'
