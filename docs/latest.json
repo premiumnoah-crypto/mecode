@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10 13:14",
+  "generated_at": "2026-10-11 12:53",
   "title": "新連載マンガ せどり判定 デイリーレポート",
   "summary": null,
-  "count": 374,
+  "count": 377,
   "buy_count": 0,
   "disclaimer": "※ 本レポートのスコアは過去のヒット要因に基づく確率的な期待値であり、アニメ化・映画化・転売益を保証するものではありません。コミックスのせどり・投資は自己責任で行ってください。",
   "items": [
@@ -16,15 +16,15 @@
       "volume1_date": "2025-09-08",
       "new_author": false,
       "scores": {
-        "virality": 71.6,
-        "adaptation": 74.4,
-        "resale": 64.5
+        "virality": 73.3,
+        "adaptation": 74.9,
+        "resale": 64.8
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=93 / Reddit=87 / Trends=0",
+        "バズ: X=93 / Reddit=87 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 95（ダークファンタジー）",
         "初版希少性: 45",
@@ -44,15 +44,15 @@
       "volume1_date": "2025-11-06",
       "new_author": false,
       "scores": {
-        "virality": 75.8,
-        "adaptation": 72.6,
-        "resale": 64.2
+        "virality": 76.3,
+        "adaptation": 72.7,
+        "resale": 64.3
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=92 / Reddit=90 / Trends=37",
+        "バズ: X=92 / Reddit=90 / Trends=40",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -72,15 +72,15 @@
       "volume1_date": "2025-04-20",
       "new_author": false,
       "scores": {
-        "virality": 69.5,
-        "adaptation": 68.7,
-        "resale": 60.8
+        "virality": 70.2,
+        "adaptation": 68.9,
+        "resale": 60.9
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=89 / Reddit=79 / Trends=18",
+        "バズ: X=89 / Reddit=79 / Trends=22",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -120,34 +120,6 @@
       "sources_failed": []
     },
     {
-      "title": "アンタと幼なじみってだけでもイヤなのに！～絶交から始まるS級美少女との学園成り上がり生活～",
-      "title_en": "Anta to Osananajimitte dake demo Iyananoni!: Zekkou kara Hajimaru S-kyuu Bishoujo to no Gakuen Nariagari Seikatsu",
-      "author": null,
-      "platform": "不明",
-      "genre": "ラブコメ",
-      "volume1_date": "2025-03-25",
-      "new_author": false,
-      "scores": {
-        "virality": 65.0,
-        "adaptation": 65.2,
-        "resale": 57.3
-      },
-      "recommendation": "WATCH",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=84 / Reddit=67 / Trends=18",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（ラブコメ）",
-        "初版希少性: 45",
-        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
       "title": "WITCHRIV",
       "title_en": "WITCHRIV",
       "author": null,
@@ -158,7 +130,7 @@
       "scores": {
         "virality": 63.9,
         "adaptation": 64.1,
-        "resale": 57.3
+        "resale": 57.4
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
@@ -176,23 +148,23 @@
       "sources_failed": []
     },
     {
-      "title": "ふたりバス",
-      "title_en": "Futari Bus",
+      "title": "アンタと幼なじみってだけでもイヤなのに！～絶交から始まるS級美少女との学園成り上がり生活～",
+      "title_en": "Anta to Osananajimitte dake demo Iyananoni!: Zekkou kara Hajimaru S-kyuu Bishoujo to no Gakuen Nariagari Seikatsu",
       "author": null,
       "platform": "不明",
       "genre": "ラブコメ",
-      "volume1_date": "2025-11-05",
+      "volume1_date": "2025-03-25",
       "new_author": false,
       "scores": {
-        "virality": 60.5,
-        "adaptation": 62.9,
-        "resale": 55.5
+        "virality": 64.1,
+        "adaptation": 64.9,
+        "resale": 57.2
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=61 / Trends=11",
+        "バズ: X=84 / Reddit=67 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -204,25 +176,25 @@
       "sources_failed": []
     },
     {
-      "title": "大人大戦",
-      "title_en": "War of the Adults",
+      "title": "ふたりバス",
+      "title_en": "Futari Bus",
       "author": null,
       "platform": "不明",
-      "genre": "サスペンス",
-      "volume1_date": "2025-04-05",
+      "genre": "ラブコメ",
+      "volume1_date": "2025-11-05",
       "new_author": false,
       "scores": {
-        "virality": 63.2,
-        "adaptation": 62.4,
-        "resale": 55.1
+        "virality": 62.7,
+        "adaptation": 63.6,
+        "resale": 55.8
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=60 / Trends=33",
+        "バズ: X=78 / Reddit=61 / Trends=26",
         "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 75（サスペンス）",
+        "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
         "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
       ],
@@ -240,17 +212,45 @@
       "volume1_date": "2025-12-06",
       "new_author": false,
       "scores": {
-        "virality": 60.1,
-        "adaptation": 62.3,
+        "virality": 65.2,
+        "adaptation": 64.1,
+        "resale": 55.6
+      },
+      "recommendation": "WATCH",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=78 / Reddit=58 / Trends=45",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
+      "title": "大人大戦",
+      "title_en": "War of the Adults",
+      "author": null,
+      "platform": "不明",
+      "genre": "サスペンス",
+      "volume1_date": "2025-04-05",
+      "new_author": false,
+      "scores": {
+        "virality": 61.6,
+        "adaptation": 61.8,
         "resale": 54.8
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=58 / Trends=11",
+        "バズ: X=78 / Reddit=60 / Trends=22",
         "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（異世界）",
+        "ジャンル追い風: 75（サスペンス）",
         "初版希少性: 45",
         "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
       ],
@@ -268,15 +268,15 @@
       "volume1_date": "2025-07-03",
       "new_author": false,
       "scores": {
-        "virality": 60.6,
-        "adaptation": 61.8,
-        "resale": 53.8
+        "virality": 58.9,
+        "adaptation": 61.2,
+        "resale": 53.6
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=54 / Trends=22",
+        "バズ: X=78 / Reddit=54 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -456,6 +456,34 @@
       "sources_failed": []
     },
     {
+      "title": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
+      "title_en": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2025-09-17",
+      "new_author": false,
+      "scores": {
+        "virality": 55.8,
+        "adaptation": 56.9,
+        "resale": 48.5
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=67 / Reddit=33 / Trends=46",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
       "title": "大崎さんと小森さん",
       "title_en": "Oosaki-san to Komori-san",
       "author": null,
@@ -484,34 +512,6 @@
       "sources_failed": []
     },
     {
-      "title": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
-      "title_en": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
-      "author": null,
-      "platform": "不明",
-      "genre": "異世界",
-      "volume1_date": "2025-09-17",
-      "new_author": false,
-      "scores": {
-        "virality": 50.6,
-        "adaptation": 55.1,
-        "resale": 47.7
-      },
-      "recommendation": "SKIP",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=67 / Reddit=33 / Trends=11",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（異世界）",
-        "初版希少性: 45",
-        "→ 現状の10倍転売妙味は低い。見送り推奨。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
       "title": "雨森潤奈は湿度が高い",
       "title_en": "Amamori Junna wa Shitsudo ga Takai",
       "author": null,
@@ -520,7 +520,7 @@
       "volume1_date": "2026-05-21",
       "new_author": false,
       "scores": {
-        "virality": 47.1,
+        "virality": 47.2,
         "adaptation": 53.7,
         "resale": 46.9
       },
@@ -548,15 +548,15 @@
       "volume1_date": "2025-09-09",
       "new_author": false,
       "scores": {
-        "virality": 49.3,
-        "adaptation": 53.8,
-        "resale": 46.3
+        "virality": 45.9,
+        "adaptation": 52.7,
+        "resale": 45.8
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=62 / Reddit=27 / Trends=22",
+        "バズ: X=62 / Reddit=27 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（異世界）",
         "初版希少性: 45",
@@ -576,7 +576,7 @@
       "volume1_date": "2025-09-12",
       "new_author": false,
       "scores": {
-        "virality": 45.5,
+        "virality": 45.6,
         "adaptation": 52.5,
         "resale": 45.7
       },
@@ -688,15 +688,15 @@
       "volume1_date": "2025-08-14",
       "new_author": false,
       "scores": {
-        "virality": 44.6,
-        "adaptation": 51.3,
-        "resale": 44.3
+        "virality": 43.0,
+        "adaptation": 50.7,
+        "resale": 44.0
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=58 / Reddit=21 / Trends=11",
+        "バズ: X=58 / Reddit=21 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -716,15 +716,15 @@
       "volume1_date": "2025-11-09",
       "new_author": false,
       "scores": {
-        "virality": 47.6,
-        "adaptation": 51.9,
-        "resale": 44.1
+        "virality": 46.0,
+        "adaptation": 51.3,
+        "resale": 43.8
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=63 / Reddit=18 / Trends=22",
+        "バズ: X=63 / Reddit=18 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（異世界）",
         "初版希少性: 45",
@@ -772,15 +772,15 @@
       "volume1_date": "2026-05-16",
       "new_author": false,
       "scores": {
-        "virality": 38.3,
-        "adaptation": 48.1,
-        "resale": 41.8
+        "virality": 40.0,
+        "adaptation": 48.7,
+        "resale": 42.1
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=50 / Reddit=14 / Trends=0",
+        "バズ: X=50 / Reddit=14 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -800,15 +800,15 @@
       "volume1_date": "2025-12-04",
       "new_author": false,
       "scores": {
-        "virality": 41.2,
-        "adaptation": 44.6,
-        "resale": 41.2
+        "virality": 42.9,
+        "adaptation": 45.2,
+        "resale": 41.5
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=59 / Reddit=21 / Trends=0",
+        "バズ: X=59 / Reddit=21 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 58（ギャグ）",
         "初版希少性: 45",
@@ -8975,6 +8975,93 @@
       "platform": "不明",
       "genre": "ラブコメ",
       "volume1_date": "2026-10-05",
+      "new_author": false,
+      "scores": {
+        "virality": 15.5,
+        "adaptation": 37.9,
+        "resale": 35.1
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（ラブコメ）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
+      "title": "限界集落を脱村した錬金術士、都会で\"最強\"なのがバレまくる。～老害どもにはいい加減愛想が尽きました～",
+      "title_en": "Genkai Shuuraku wo Datsu Mura shita Renkinjutsushi, Tokai de \"Saikyou\" nano ga Baremakuru. Rougai-domo ni wa Iikagen Aiso ga Tsukimashita",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2025-05-10",
+      "new_author": false,
+      "scores": {
+        "virality": 15.5,
+        "adaptation": 37.9,
+        "resale": 35.1
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
+      "title": "ダンジョンに出会いを求めるのは間違っているだろうか　深層篇",
+      "title_en": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Shinsou-hen",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2026-10-02",
+      "new_author": false,
+      "scores": {
+        "virality": 15.5,
+        "adaptation": 37.9,
+        "resale": 35.1
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
+      "title": "魔族の娘たちと送る乱れた異世界生活",
+      "title_en": "Mazoku no Musumetachi to Okuru Midareta Isekai Seikatsu",
+      "author": null,
+      "platform": "不明",
+      "genre": "ラブコメ",
+      "volume1_date": "2026-06-04",
       "new_author": false,
       "scores": {
         "virality": 15.5,
