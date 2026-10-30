@@ -3940,3 +3940,30 @@ titles:
   search_terms:
   - Watashi de Doutei Suteta Kuse ni
   volume1_date: '2026-09-29'
+- title: パコヘル
+  title_en: Paco Hell
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Paco Hell
+  volume1_date: '2026-09-28'
+- title: 俺に都合が良すぎる街～支配者スキルで異世界ハーレム無双～
+  title_en: 'Ore ni Tsugou ga Yosugiru Machi: Shihaisha Skill de Isekai Harem Musou'
+  platform: 不明
+  genre: 異世界
+  new_author: false
+  color_opening: false
+  search_terms:
+  - 'Ore ni Tsugou ga Yosugiru Machi: Shihaisha Skill de Isekai Harem Musou'
+  volume1_date: '2026-01-27'
+- title: たのしい音楽
+  title_en: Tanoshii Ongaku
+  platform: 不明
+  genre: ラブコメ
+  new_author: false
+  color_opening: false
+  search_terms:
+  - Tanoshii Ongaku
+  volume1_date: '2026-10-29'
