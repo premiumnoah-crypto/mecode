@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05 14:00",
+  "generated_at": "2026-11-06 14:00",
   "title": "新連載マンガ せどり判定 デイリーレポート",
   "summary": null,
-  "count": 432,
+  "count": 436,
   "buy_count": 0,
   "disclaimer": "※ 本レポートのスコアは過去のヒット要因に基づく確率的な期待値であり、アニメ化・映画化・転売益を保証するものではありません。コミックスのせどり・投資は自己責任で行ってください。",
   "items": [
@@ -16,15 +16,15 @@
       "volume1_date": "2025-11-06",
       "new_author": false,
       "scores": {
-        "virality": 80.7,
-        "adaptation": 74.4,
-        "resale": 65.2
+        "virality": 79.0,
+        "adaptation": 73.8,
+        "resale": 64.9
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=92 / Reddit=91 / Trends=67",
+        "バズ: X=92 / Reddit=91 / Trends=55",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -72,15 +72,15 @@
       "volume1_date": "2025-04-20",
       "new_author": false,
       "scores": {
-        "virality": 73.1,
-        "adaptation": 70.0,
-        "resale": 61.5
+        "virality": 72.7,
+        "adaptation": 69.9,
+        "resale": 61.4
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=89 / Reddit=80 / Trends=40",
+        "バズ: X=89 / Reddit=80 / Trends=37",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -100,15 +100,15 @@
       "volume1_date": "2025-06-10",
       "new_author": false,
       "scores": {
-        "virality": 64.6,
-        "adaptation": 66.0,
-        "resale": 58.6
+        "virality": 63.0,
+        "adaptation": 65.5,
+        "resale": 58.4
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=82 / Reddit=73 / Trends=11",
+        "バズ: X=82 / Reddit=73 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -128,15 +128,15 @@
       "volume1_date": "2025-10-23",
       "new_author": false,
       "scores": {
-        "virality": 68.6,
-        "adaptation": 65.8,
-        "resale": 58.2
+        "virality": 67.5,
+        "adaptation": 65.4,
+        "resale": 58.0
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=83 / Reddit=70 / Trends=41",
+        "バズ: X=83 / Reddit=70 / Trends=33",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 75（サスペンス）",
         "初版希少性: 45",
@@ -156,15 +156,15 @@
       "volume1_date": "2025-03-25",
       "new_author": false,
       "scores": {
-        "virality": 65.9,
-        "adaptation": 65.6,
-        "resale": 57.5
+        "virality": 64.2,
+        "adaptation": 65.0,
+        "resale": 57.3
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=84 / Reddit=67 / Trends=22",
+        "バズ: X=84 / Reddit=67 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -184,15 +184,15 @@
       "volume1_date": "2025-11-05",
       "new_author": false,
       "scores": {
-        "virality": 64.8,
-        "adaptation": 64.5,
-        "resale": 56.4
+        "virality": 64.3,
+        "adaptation": 64.4,
+        "resale": 56.3
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=62 / Trends=37",
+        "バズ: X=78 / Reddit=62 / Trends=33",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -212,15 +212,15 @@
       "volume1_date": "2025-12-06",
       "new_author": false,
       "scores": {
-        "virality": 63.4,
-        "adaptation": 63.6,
-        "resale": 55.5
+        "virality": 60.8,
+        "adaptation": 62.7,
+        "resale": 55.1
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=79 / Reddit=59 / Trends=29",
+        "バズ: X=79 / Reddit=59 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（異世界）",
         "初版希少性: 45",
@@ -240,15 +240,15 @@
       "volume1_date": "2025-04-05",
       "new_author": false,
       "scores": {
-        "virality": 58.4,
-        "adaptation": 60.7,
-        "resale": 54.4
+        "virality": 61.1,
+        "adaptation": 61.7,
+        "resale": 54.8
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=60 / Trends=0",
+        "バズ: X=78 / Reddit=60 / Trends=18",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 75（サスペンス）",
         "初版希少性: 45",
@@ -268,15 +268,15 @@
       "volume1_date": "2025-07-03",
       "new_author": false,
       "scores": {
-        "virality": 63.4,
-        "adaptation": 62.8,
-        "resale": 54.4
+        "virality": 61.9,
+        "adaptation": 62.3,
+        "resale": 54.2
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=54 / Trends=39",
+        "バズ: X=78 / Reddit=54 / Trends=29",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -296,15 +296,15 @@
       "volume1_date": "2025-02-28",
       "new_author": false,
       "scores": {
-        "virality": 55.8,
-        "adaptation": 59.4,
-        "resale": 52.1
+        "virality": 61.6,
+        "adaptation": 61.4,
+        "resale": 53.0
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=76 / Reddit=49 / Trends=0",
+        "バズ: X=76 / Reddit=49 / Trends=39",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -428,6 +428,34 @@
       "sources_failed": []
     },
     {
+      "title": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
+      "title_en": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2025-09-17",
+      "new_author": false,
+      "scores": {
+        "virality": 56.3,
+        "adaptation": 57.9,
+        "resale": 49.8
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=69 / Reddit=38 / Trends=39",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
       "title": "負けヒロインを勝たせたい!!",
       "title_en": "Make Heroine wo Katasetai!!",
       "author": null,
@@ -447,34 +475,6 @@
         "バズ: X=67 / Reddit=41 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
-        "初版希少性: 45",
-        "→ 現状の10倍転売妙味は低い。見送り推奨。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
-      "title": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
-      "title_en": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
-      "author": null,
-      "platform": "不明",
-      "genre": "異世界",
-      "volume1_date": "2025-09-17",
-      "new_author": false,
-      "scores": {
-        "virality": 50.5,
-        "adaptation": 55.9,
-        "resale": 48.9
-      },
-      "recommendation": "SKIP",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=69 / Reddit=38 / Trends=0",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（異世界）",
         "初版希少性: 45",
         "→ 現状の10倍転売妙味は低い。見送り推奨。"
       ],
@@ -744,7 +744,7 @@
       "volume1_date": "2025-08-14",
       "new_author": false,
       "scores": {
-        "virality": 43.2,
+        "virality": 43.3,
         "adaptation": 50.8,
         "resale": 44.0
       },
@@ -764,34 +764,6 @@
       "sources_failed": []
     },
     {
-      "title": "やがて絵筆を映ろし君は",
-      "title_en": "Soon, You'll Paint Your Heart Out",
-      "author": null,
-      "platform": "不明",
-      "genre": "ギャグ",
-      "volume1_date": "2025-12-04",
-      "new_author": false,
-      "scores": {
-        "virality": 46.0,
-        "adaptation": 46.3,
-        "resale": 42.0
-      },
-      "recommendation": "SKIP",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=60 / Reddit=21 / Trends=29",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 58（ギャグ）",
-        "初版希少性: 45",
-        "→ 現状の10倍転売妙味は低い。見送り推奨。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
       "title": "最後の悪役がイン魔にやられてしまった",
       "title_en": "A Villain Consumed by Desire",
       "author": null,
@@ -800,7 +772,7 @@
       "volume1_date": "2026-05-16",
       "new_author": false,
       "scores": {
-        "virality": 39.0,
+        "virality": 39.1,
         "adaptation": 48.3,
         "resale": 41.9
       },
@@ -811,6 +783,34 @@
         "バズ: X=52 / Reddit=14 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
+      "title": "やがて絵筆を映ろし君は",
+      "title_en": "Soon, You'll Paint Your Heart Out",
+      "author": null,
+      "platform": "不明",
+      "genre": "ギャグ",
+      "volume1_date": "2025-12-04",
+      "new_author": false,
+      "scores": {
+        "virality": 41.7,
+        "adaptation": 44.8,
+        "resale": 41.3
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=60 / Reddit=21 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 58（ギャグ）",
         "初版希少性: 45",
         "→ 現状の10倍転売妙味は低い。見送り推奨。"
       ],
@@ -10622,6 +10622,64 @@
       ]
     },
     {
+      "title": "全員覚悟ガンギマリなエロゲーの邪教徒モブに転生してしまった件",
+      "title_en": "Zenin Kakugo Gangimari na Eroge no Jakyouto Mob ni Tensei shiteshimatta Ken",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2026-07-05",
+      "new_author": false,
+      "scores": {
+        "virality": 15.5,
+        "adaptation": 37.9,
+        "resale": 35.1
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
+      "title": "ハウリング・ブレイズ 葬焔の剣士と不死の魔女",
+      "title_en": "Howling Blaze: Souen no Kenshi to Fushi no Majo",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2026-05-27",
+      "new_author": false,
+      "scores": {
+        "virality": 15.5,
+        "adaptation": 37.9,
+        "resale": 35.1
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
       "title": "口に関するアンケート",
       "title_en": "A Questionnaire on the Mouth",
       "author": null,
@@ -11556,6 +11614,64 @@
       "platform": "不明",
       "genre": "サスペンス",
       "volume1_date": "2026-06-06",
+      "new_author": false,
+      "scores": {
+        "virality": 15.0,
+        "adaptation": 36.5,
+        "resale": 34.4
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 75（サスペンス）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
+      "title": "ブレイクニューワールド",
+      "title_en": "Break New World",
+      "author": null,
+      "platform": "不明",
+      "genre": "サスペンス",
+      "volume1_date": "2025-06-06",
+      "new_author": false,
+      "scores": {
+        "virality": 15.0,
+        "adaptation": 36.5,
+        "resale": 34.4
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 75（サスペンス）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
+      "title": "ファム・ファタールの救済",
+      "title_en": "Femme Fatale no Kyuusai",
+      "author": null,
+      "platform": "不明",
+      "genre": "サスペンス",
+      "volume1_date": "2026-10-20",
       "new_author": false,
       "scores": {
         "virality": 15.0,
