@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09 13:34",
+  "generated_at": "2026-11-10 14:53",
   "title": "新連載マンガ せどり判定 デイリーレポート",
   "summary": null,
   "count": 441,
@@ -16,7 +16,7 @@
       "volume1_date": "2025-09-08",
       "new_author": false,
       "scores": {
-        "virality": 73.3,
+        "virality": 73.4,
         "adaptation": 74.9,
         "resale": 64.7
       },
@@ -44,15 +44,15 @@
       "volume1_date": "2025-11-06",
       "new_author": false,
       "scores": {
-        "virality": 75.4,
-        "adaptation": 72.6,
+        "virality": 75.8,
+        "adaptation": 72.7,
         "resale": 64.4
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=92 / Reddit=91 / Trends=31",
+        "バズ: X=92 / Reddit=91 / Trends=33",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -72,15 +72,15 @@
       "volume1_date": "2025-04-20",
       "new_author": false,
       "scores": {
-        "virality": 76.0,
-        "adaptation": 71.1,
-        "resale": 61.9
+        "virality": 73.2,
+        "adaptation": 70.1,
+        "resale": 61.5
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=89 / Reddit=80 / Trends=59",
+        "バズ: X=89 / Reddit=80 / Trends=40",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -129,7 +129,7 @@
       "new_author": false,
       "scores": {
         "virality": 65.1,
-        "adaptation": 64.6,
+        "adaptation": 64.7,
         "resale": 57.7
       },
       "recommendation": "WATCH",
@@ -184,15 +184,15 @@
       "volume1_date": "2025-11-05",
       "new_author": false,
       "scores": {
-        "virality": 62.0,
-        "adaptation": 63.6,
-        "resale": 56.0
+        "virality": 61.1,
+        "adaptation": 63.3,
+        "resale": 55.8
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=62 / Trends=18",
+        "バズ: X=78 / Reddit=63 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -212,15 +212,15 @@
       "volume1_date": "2025-12-06",
       "new_author": false,
       "scores": {
-        "virality": 64.1,
-        "adaptation": 63.8,
-        "resale": 55.6
+        "virality": 62.5,
+        "adaptation": 63.3,
+        "resale": 55.4
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=79 / Reddit=59 / Trends=33",
+        "バズ: X=79 / Reddit=59 / Trends=22",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（異世界）",
         "初版希少性: 45",
@@ -240,15 +240,15 @@
       "volume1_date": "2025-04-05",
       "new_author": false,
       "scores": {
-        "virality": 60.1,
-        "adaptation": 61.3,
-        "resale": 54.6
+        "virality": 61.8,
+        "adaptation": 61.9,
+        "resale": 54.9
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=79 / Reddit=60 / Trends=11",
+        "バズ: X=79 / Reddit=60 / Trends=22",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 75（サスペンス）",
         "初版希少性: 45",
@@ -296,15 +296,15 @@
       "volume1_date": "2025-02-28",
       "new_author": false,
       "scores": {
-        "virality": 57.5,
-        "adaptation": 60.0,
-        "resale": 52.4
+        "virality": 55.9,
+        "adaptation": 59.5,
+        "resale": 52.2
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=76 / Reddit=49 / Trends=11",
+        "バズ: X=76 / Reddit=49 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -352,15 +352,15 @@
       "volume1_date": "2025-12-11",
       "new_author": false,
       "scores": {
-        "virality": 56.3,
-        "adaptation": 58.7,
-        "resale": 50.9
+        "virality": 53.7,
+        "adaptation": 57.8,
+        "resale": 50.5
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=74 / Reddit=43 / Trends=18",
+        "バズ: X=74 / Reddit=43 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -400,34 +400,6 @@
       "sources_failed": []
     },
     {
-      "title": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
-      "title_en": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
-      "author": null,
-      "platform": "不明",
-      "genre": "異世界",
-      "volume1_date": "2025-09-17",
-      "new_author": false,
-      "scores": {
-        "virality": 58.0,
-        "adaptation": 58.5,
-        "resale": 50.0
-      },
-      "recommendation": "WATCH",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=69 / Reddit=38 / Trends=49",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（異世界）",
-        "初版希少性: 45",
-        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
       "title": "僕の心のヤバイやつ ラブコメディが ︀︀始まらない",
       "title_en": "The Dangers in My Heart: The Romantic Comedy Won’t Start",
       "author": null,
@@ -449,6 +421,34 @@
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
         "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
+      "title": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
+      "title_en": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2025-09-17",
+      "new_author": false,
+      "scores": {
+        "virality": 55.4,
+        "adaptation": 57.6,
+        "resale": 49.6
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=69 / Reddit=38 / Trends=31",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
       ],
       "sources_used": [
         "AniList"
@@ -492,15 +492,15 @@
       "volume1_date": "2025-07-07",
       "new_author": false,
       "scores": {
-        "virality": 49.9,
-        "adaptation": 55.3,
+        "virality": 48.4,
+        "adaptation": 54.9,
         "resale": 48.2
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=64 / Reddit=36 / Trends=11",
+        "バズ: X=64 / Reddit=36 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -520,15 +520,15 @@
       "volume1_date": "2026-05-21",
       "new_author": false,
       "scores": {
-        "virality": 49.0,
-        "adaptation": 54.2,
-        "resale": 46.9
+        "virality": 47.4,
+        "adaptation": 53.6,
+        "resale": 46.7
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=65 / Reddit=30 / Trends=11",
+        "バズ: X=65 / Reddit=30 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -604,15 +604,15 @@
       "volume1_date": "2026-04-17",
       "new_author": false,
       "scores": {
-        "virality": 44.4,
-        "adaptation": 51.9,
-        "resale": 45.2
+        "virality": 46.1,
+        "adaptation": 52.5,
+        "resale": 45.5
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=60 / Reddit=26 / Trends=0",
+        "バズ: X=60 / Reddit=26 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -632,15 +632,15 @@
       "volume1_date": "2025-11-09",
       "new_author": false,
       "scores": {
-        "virality": 49.9,
-        "adaptation": 53.2,
-        "resale": 45.1
+        "virality": 49.0,
+        "adaptation": 52.8,
+        "resale": 44.9
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=65 / Reddit=21 / Trends=29",
+        "バズ: X=65 / Reddit=21 / Trends=22",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（異世界）",
         "初版希少性: 45",
@@ -746,7 +746,7 @@
       "scores": {
         "virality": 43.3,
         "adaptation": 50.8,
-        "resale": 44.0
+        "resale": 44.1
       },
       "recommendation": "SKIP",
       "buy_quantity": 0,
@@ -808,7 +808,7 @@
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=60 / Reddit=21 / Trends=0",
+        "バズ: X=61 / Reddit=21 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 58（ギャグ）",
         "初版希少性: 45",
