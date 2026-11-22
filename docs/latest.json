@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21 14:32",
+  "generated_at": "2026-11-22 13:58",
   "title": "新連載マンガ せどり判定 デイリーレポート",
   "summary": null,
-  "count": 457,
+  "count": 459,
   "buy_count": 0,
   "disclaimer": "※ 本レポートのスコアは過去のヒット要因に基づく確率的な期待値であり、アニメ化・映画化・転売益を保証するものではありません。コミックスのせどり・投資は自己責任で行ってください。",
   "items": [
@@ -44,15 +44,15 @@
       "volume1_date": "2025-11-06",
       "new_author": false,
       "scores": {
-        "virality": 76.4,
-        "adaptation": 73.0,
-        "resale": 64.6
+        "virality": 76.2,
+        "adaptation": 72.9,
+        "resale": 64.5
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=93 / Reddit=92 / Trends=37",
+        "バズ: X=93 / Reddit=92 / Trends=35",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -74,7 +74,7 @@
       "scores": {
         "virality": 71.2,
         "adaptation": 69.4,
-        "resale": 61.2
+        "resale": 61.3
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
@@ -100,15 +100,15 @@
       "volume1_date": "2025-06-10",
       "new_author": false,
       "scores": {
-        "virality": 64.8,
-        "adaptation": 66.2,
-        "resale": 58.7
+        "virality": 66.5,
+        "adaptation": 66.7,
+        "resale": 59.0
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=83 / Reddit=73 / Trends=11",
+        "バズ: X=83 / Reddit=73 / Trends=22",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -204,6 +204,34 @@
       "sources_failed": []
     },
     {
+      "title": "転生ストリーマー",
+      "title_en": "Streaming My Second Life",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2025-12-06",
+      "new_author": false,
+      "scores": {
+        "virality": 67.7,
+        "adaptation": 65.2,
+        "resale": 56.3
+      },
+      "recommendation": "WATCH",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=80 / Reddit=60 / Trends=56",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
       "title": "ふたりバス",
       "title_en": "Futari Bus",
       "author": null,
@@ -212,15 +240,15 @@
       "volume1_date": "2025-11-05",
       "new_author": false,
       "scores": {
-        "virality": 61.3,
-        "adaptation": 63.4,
-        "resale": 56.0
+        "virality": 62.3,
+        "adaptation": 63.7,
+        "resale": 56.1
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=79 / Reddit=63 / Trends=11",
+        "バズ: X=79 / Reddit=63 / Trends=18",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -240,45 +268,17 @@
       "volume1_date": "2025-04-05",
       "new_author": false,
       "scores": {
-        "virality": 62.5,
-        "adaptation": 62.2,
-        "resale": 55.1
+        "virality": 58.6,
+        "adaptation": 60.8,
+        "resale": 54.5
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=79 / Reddit=61 / Trends=26",
+        "バズ: X=79 / Reddit=61 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 75（サスペンス）",
-        "初版希少性: 45",
-        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
-      "title": "転生ストリーマー",
-      "title_en": "Streaming My Second Life",
-      "author": null,
-      "platform": "不明",
-      "genre": "異世界",
-      "volume1_date": "2025-12-06",
-      "new_author": false,
-      "scores": {
-        "virality": 59.4,
-        "adaptation": 62.3,
-        "resale": 55.0
-      },
-      "recommendation": "WATCH",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=80 / Reddit=60 / Trends=0",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（異世界）",
         "初版希少性: 45",
         "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
       ],
@@ -296,15 +296,15 @@
       "volume1_date": "2025-07-03",
       "new_author": false,
       "scores": {
-        "virality": 60.3,
-        "adaptation": 61.8,
-        "resale": 53.9
+        "virality": 57.7,
+        "adaptation": 60.9,
+        "resale": 53.6
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=78 / Reddit=54 / Trends=18",
+        "バズ: X=78 / Reddit=55 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -352,15 +352,15 @@
       "volume1_date": "2025-02-28",
       "new_author": false,
       "scores": {
-        "virality": 55.9,
-        "adaptation": 59.5,
-        "resale": 52.2
+        "virality": 57.6,
+        "adaptation": 60.1,
+        "resale": 52.5
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=76 / Reddit=49 / Trends=0",
+        "バズ: X=76 / Reddit=49 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -380,15 +380,15 @@
       "volume1_date": "2025-12-11",
       "new_author": false,
       "scores": {
-        "virality": 53.8,
-        "adaptation": 57.8,
-        "resale": 50.5
+        "virality": 55.4,
+        "adaptation": 58.4,
+        "resale": 50.8
       },
       "recommendation": "WATCH",
       "buy_quantity": 0,
       "confidence": "low",
       "rationale": [
-        "バズ: X=74 / Reddit=43 / Trends=0",
+        "バズ: X=74 / Reddit=43 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -428,34 +428,6 @@
       "sources_failed": []
     },
     {
-      "title": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
-      "title_en": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
-      "author": null,
-      "platform": "不明",
-      "genre": "異世界",
-      "volume1_date": "2025-09-17",
-      "new_author": false,
-      "scores": {
-        "virality": 57.2,
-        "adaptation": 58.4,
-        "resale": 50.2
-      },
-      "recommendation": "WATCH",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=70 / Reddit=39 / Trends=40",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（異世界）",
-        "初版希少性: 45",
-        "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
       "title": "僕の心のヤバイやつ ラブコメディが ︀︀始まらない",
       "title_en": "The Dangers in My Heart: The Romantic Comedy Won’t Start",
       "author": null,
@@ -477,6 +449,34 @@
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
         "→ 現状はウォッチ。アニメ化発表等のカタリスト待ち。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
+      "title": "初代様の帰還～史上最強が1000年後の子孫に転生する～",
+      "title_en": "Shodai-sama no Kikan: Shijou Saikyou ga 1000-nengo no Shison ni Tensei Suru",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2025-09-17",
+      "new_author": false,
+      "scores": {
+        "virality": 53.9,
+        "adaptation": 57.3,
+        "resale": 49.7
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=70 / Reddit=39 / Trends=18",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
       ],
       "sources_used": [
         "AniList"
@@ -531,6 +531,34 @@
         "バズ: X=65 / Reddit=30 / Trends=0",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
+      "title": "魔法至上の世界でアカデミーの天才になっていた",
+      "title_en": "Mahou Shijou no Sekai de Academy no Tensai ni Natte Ita",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2025-11-09",
+      "new_author": false,
+      "scores": {
+        "virality": 50.1,
+        "adaptation": 53.9,
+        "resale": 46.1
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=65 / Reddit=26 / Trends=22",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
         "初版希少性: 45",
         "→ 現状の10倍転売妙味は低い。見送り推奨。"
       ],
@@ -596,34 +624,6 @@
       "sources_failed": []
     },
     {
-      "title": "魔法至上の世界でアカデミーの天才になっていた",
-      "title_en": "Mahou Shijou no Sekai de Academy no Tensai ni Natte Ita",
-      "author": null,
-      "platform": "不明",
-      "genre": "異世界",
-      "volume1_date": "2025-11-09",
-      "new_author": false,
-      "scores": {
-        "virality": 48.4,
-        "adaptation": 53.3,
-        "resale": 45.8
-      },
-      "recommendation": "SKIP",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=65 / Reddit=26 / Trends=11",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（異世界）",
-        "初版希少性: 45",
-        "→ 現状の10倍転売妙味は低い。見送り推奨。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
       "title": "サナギの心臓",
       "title_en": "The Chrysalis Heart",
       "author": null,
@@ -641,6 +641,34 @@
       "confidence": "low",
       "rationale": [
         "バズ: X=60 / Reddit=26 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（ラブコメ）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [
+        "AniList"
+      ],
+      "sources_failed": []
+    },
+    {
+      "title": "ギャル神官はリザレがダルい",
+      "title_en": "Gal Shinkan wa Resurrection ga Darui",
+      "author": null,
+      "platform": "不明",
+      "genre": "ラブコメ",
+      "volume1_date": "2025-08-14",
+      "new_author": false,
+      "scores": {
+        "virality": 45.9,
+        "adaptation": 52.1,
+        "resale": 45.0
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "バズ: X=60 / Reddit=24 / Trends=11",
         "編集部プッシュ(媒体): 50（不明）",
         "ジャンル追い風: 80（ラブコメ）",
         "初版希少性: 45",
@@ -708,34 +736,6 @@
       "sources_failed": []
     },
     {
-      "title": "ギャル神官はリザレがダルい",
-      "title_en": "Gal Shinkan wa Resurrection ga Darui",
-      "author": null,
-      "platform": "不明",
-      "genre": "ラブコメ",
-      "volume1_date": "2025-08-14",
-      "new_author": false,
-      "scores": {
-        "virality": 44.2,
-        "adaptation": 51.5,
-        "resale": 44.7
-      },
-      "recommendation": "SKIP",
-      "buy_quantity": 0,
-      "confidence": "low",
-      "rationale": [
-        "バズ: X=60 / Reddit=24 / Trends=0",
-        "編集部プッシュ(媒体): 50（不明）",
-        "ジャンル追い風: 80（ラブコメ）",
-        "初版希少性: 45",
-        "→ 現状の10倍転売妙味は低い。見送り推奨。"
-      ],
-      "sources_used": [
-        "AniList"
-      ],
-      "sources_failed": []
-    },
-    {
       "title": "暴君一家の嫁ですが、この執着は間違ってませんか？",
       "title_en": "Boukun Ikka no Yome desu ga, Kono Shuuchaku wa Machigattemasen ka?",
       "author": null,
@@ -772,7 +772,7 @@
       "volume1_date": "2025-12-04",
       "new_author": false,
       "scores": {
-        "virality": 42.4,
+        "virality": 42.5,
         "adaptation": 45.4,
         "resale": 42.0
       },
@@ -1174,6 +1174,35 @@
       "platform": "不明",
       "genre": "ダークファンタジー",
       "volume1_date": "2025-07-29",
+      "new_author": false,
+      "scores": {
+        "virality": 17.0,
+        "adaptation": 42.2,
+        "resale": 37.0
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 95（ダークファンタジー）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
+      "title": "八重乃遥可は8人いる!!",
+      "title_en": "Yaeno Haruka wa 8-nin Iru!!",
+      "author": null,
+      "platform": "不明",
+      "genre": "ダークファンタジー",
+      "volume1_date": "2026-07-22",
       "new_author": false,
       "scores": {
         "virality": 17.0,
@@ -11121,6 +11150,35 @@
       "platform": "不明",
       "genre": "異世界",
       "volume1_date": "2026-02-08",
+      "new_author": false,
+      "scores": {
+        "virality": 15.5,
+        "adaptation": 37.9,
+        "resale": 35.1
+      },
+      "recommendation": "SKIP",
+      "buy_quantity": 0,
+      "confidence": "low",
+      "rationale": [
+        "⚠️ 取得できなかったデータ源: AniList（その分スコアの信頼度は低下しています）",
+        "バズ: X=0 / Reddit=0 / Trends=0",
+        "編集部プッシュ(媒体): 50（不明）",
+        "ジャンル追い風: 80（異世界）",
+        "初版希少性: 45",
+        "→ 現状の10倍転売妙味は低い。見送り推奨。"
+      ],
+      "sources_used": [],
+      "sources_failed": [
+        "AniList"
+      ]
+    },
+    {
+      "title": "捨てられた元騎士団長のおっさん、辺境でシングルマザーに拾われる",
+      "title_en": "Suterareta Moto Kishidanchou no Ossan, Henkyou de Single Mother ni Hirowareru",
+      "author": null,
+      "platform": "不明",
+      "genre": "異世界",
+      "volume1_date": "2026-10-09",
       "new_author": false,
       "scores": {
         "virality": 15.5,
